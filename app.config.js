@@ -22,12 +22,12 @@ export default {
       supportsTablet: true,
     },
     extra: {
-      apiKey: "AIzaSyDhoCD1P8rMh_A2hRNG7Adu1Bwx6UpKqIY",
-      authDomain: "ing-software-2025-2.firebaseapp.com",
-      projectId: "ing-software-2025-2",
-      storageBucket: "ing-software-2025-2.firebasestorage.app",
-      messagingSenderId: "1057544740446",
-      appId: "1:1057544740446:web:cc5616aea4d86c8a59decf",
+      apiKey: process.env.API_KEY,
+      authDomain: process.env.AUTH_DOMAIN,
+      projectId: process.env.PROJECT_ID,
+      storageBucket: process.env.STORAGE_BUCKET,
+      messagingSenderId: process.env.MESSAGING_SENDER_ID,
+      appId: process.env.APP_ID,
     },
   },
 };
